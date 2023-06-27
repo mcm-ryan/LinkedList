@@ -1,6 +1,6 @@
 """
 Node Class:
-Every item in your linked list will be encapsulated in this class.
+Every item in the linked list will be encapsulated in this class.
 value:  the item encapsulated by the node.
 next : a pointer to the next node in line. This will be None if it is the last item in the list.
 """
@@ -24,8 +24,7 @@ class LinkedList:
         self.len = 0
 
     """
-    add function: Add an item to the linked list. 
-    Keep the 'return self' line at the end to help with testing.
+    add function: Adds an item to the linked list. 
     """
 
     def add(self, value):
